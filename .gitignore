@@ -1,3 +1,5 @@
 convolutional-neural-networks/transfer-learning/flower_photos.zip
 convolutional-neural-networks/weight-initialization/data.zip
 convolutional-neural-networks/autoencoder/simple-autoencoder/data.zip
+convolutional-neural-networks/autoencoder/denoising-autoencoder/data.zip
+convolutional-neural-networks/autoencoder/convolutional-autoencoder/data.zip
