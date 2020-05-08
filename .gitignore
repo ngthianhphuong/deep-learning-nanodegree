@@ -3,3 +3,4 @@ convolutional-neural-networks/weight-initialization/data.zip
 convolutional-neural-networks/autoencoder/simple-autoencoder/data.zip
 convolutional-neural-networks/autoencoder/denoising-autoencoder/data.zip
 convolutional-neural-networks/autoencoder/convolutional-autoencoder/data.zip
+gan/mnist-gan/data.zip
