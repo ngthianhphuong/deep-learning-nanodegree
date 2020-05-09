@@ -4,3 +4,5 @@ convolutional-neural-networks/autoencoder/simple-autoencoder/data.zip
 convolutional-neural-networks/autoencoder/denoising-autoencoder/data.zip
 convolutional-neural-networks/autoencoder/convolutional-autoencoder/data.zip
 gan/mnist-gan/data.zip
+gan/batch-norm/data.zip
+gan/dcgan/data.zip
