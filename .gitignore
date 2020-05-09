@@ -6,3 +6,4 @@ convolutional-neural-networks/autoencoder/convolutional-autoencoder/data.zip
 gan/mnist-gan/data.zip
 gan/batch-norm/data.zip
 gan/dcgan/data.zip
+gan/cycle-gan/summer2winter_yosemite.zip
