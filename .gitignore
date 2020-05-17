@@ -9,3 +9,4 @@ gan/dcgan/data.zip
 gan/cycle-gan/summer2winter_yosemite.zip
 gan/face-generation/processed_celeba_small.zip
 gan/face-generation/train_samples.pkl
+rnn/skip-gram/data
