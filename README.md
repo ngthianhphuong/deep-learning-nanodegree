@@ -77,6 +77,17 @@ This mini-project walk through different methods of weight initialization for a 
 - Uniform rule vs Normal Distribution.
 - Automatic Initialization vs Uniform rule vs Normal Distribution.
 
+#### 7. [Autoencoders](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/autoencoder)
+This mini-project is composed of 3 parts, each part corresponds to a notebook:
+* [Linear Autoencoder](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/autoencoder/simple-autoencoder) builds a simple autoencoder to compress the MNIST dataset. Input data is passed through an encoder that makes a compressed representation of the input. Then, this representation is passed through a decoder to reconstruct the input data. The encoder and decoder are built with neural networks, then trained on example data.
+* [Convolutional Autoencoder](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/autoencoder/convolutional-autoencoder) improves the autoencoder's performance using convolutional layers to compress the MNIST dataset. The encoder portion is made of convolutional and pooling layers and the decoder is made of transpose convolutional layers that learn to "upsample" a compressed representation.
+* [De-noising Autoencoder](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/autoencoder/denoising-autoencoder) defines and trains a convolutional autoencoder to de-noise the noisy input images, with target is the non noisy image data.
+
+#### 8. [Style Transfer]()
+This mini-project recreates a style transfer method that is outlined in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch. Given one content image and one style image, we aim to create a new, target image which should contain the desired content and style components: objects and their arrangement are similar to that of the content image; style, colors, and textures are similar to that of the style image.
+
+
+
 
 
 
