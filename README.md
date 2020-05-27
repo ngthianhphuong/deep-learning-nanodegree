@@ -41,7 +41,7 @@ This project consists of multiples steps:
 * Analyzing predictions and thinking about how well the model makes predictions and where and why it fails.
 
 ### Convolutional Neural Networks
-This part uses PyTorch in various mini-projects of image classification tasks.
+This part uses PyTorch in 8 mini-projects and 1 final project of image classification.
 #### 1. [Multi-Layer Perceptron, MNIST](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/mnist-mlp-exercise)
 This notebook trains an MLP to classify images from the [MNIST](http://yann.lecun.com/exdb/mnist/) hand-written digit database. The process is broken down into the following steps:
 - Load and visualize the data.
@@ -83,8 +83,14 @@ This mini-project is composed of 3 parts, each part corresponds to a notebook:
 * [Convolutional Autoencoder](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/autoencoder/convolutional-autoencoder) improves the autoencoder's performance using convolutional layers to compress the MNIST dataset. The encoder portion is made of convolutional and pooling layers and the decoder is made of transpose convolutional layers that learn to "upsample" a compressed representation.
 * [De-noising Autoencoder](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/autoencoder/denoising-autoencoder) defines and trains a convolutional autoencoder to de-noise the noisy input images, with target is the non noisy image data.
 
-#### 8. [Style Transfer]()
-This mini-project recreates a style transfer method that is outlined in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch. Given one content image and one style image, we aim to create a new, target image which should contain the desired content and style components: objects and their arrangement are similar to that of the content image; style, colors, and textures are similar to that of the style image.
+#### 8. [Style Transfer](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/convolutional-neural-networks/style-transfer)
+This mini-project recreates a style transfer method that is outlined in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch. Given one content image and one style image, using VGG19 network, we aim to create a new, target image which should contain the desired content and style components: objects and their arrangement are similar to that of the content image; style, colors, and textures are similar to that of the style image.
+#### 9. [PROJECT: Dog Breed Classifier using CNN](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks/dog-breed)
+This project aims to build a pipeline to process real-world, user-supplied images. Given an image of a dog, the algorithm should be able to identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
+Along with exploring state-of-the-art CNN models for classification, this project aims to make important design decisions about the user experience of the final app. The goal is to understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline. Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer. 
+The project is composed of multiple steps:
+- 
+
 
 
 
