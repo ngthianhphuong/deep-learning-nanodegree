@@ -100,8 +100,12 @@ The project is composed of multiple steps:
 This part contains 5 mini-projects and 1 final project. It aims to apply PyTorch to implement RNN and LSTM in various tasks relating to Natural Language Processing.
 #### 1. [Time Series](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/time-series)
 This is a walkthrough of code to give an idea of how PyTorch represents RNNs and how to represent memory in code.
-#### 2. 
-
+#### 2. [Character-level RNN](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/character-level-rnn-exercise)
+This mini-project is about character-level text prediction with an LSTM, using Anna Karenina text file. Character data, after being pre-processed and encoded as integers, is fed into a LSTM that predicts the next character when given an input sequence. The LTSM model is then used to generate new text.
+#### 3. [Skip-Gram](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/skip-gram)
+This mini-project is about implementing the Word2Vec model using the SkipGram architecture and Negative Sampling. This is a way to create word embedding for use in natural language processing.
+#### 4. [Sentiment Prediction](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/sentiment-prediction-lstm)
+This mini-project uses a dataset of movie reviews, accompanied by sentiment labels: positive or negative, and implements a LSTM that performs sentiment analysis.
 
 ### Generative Adversarial Networks
 ### Deployment with AWS Sagemaker
