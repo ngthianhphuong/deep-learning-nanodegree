@@ -106,7 +106,43 @@ This mini-project is about character-level text prediction with an LSTM, using A
 This mini-project is about implementing the Word2Vec model using the SkipGram architecture and Negative Sampling. This is a way to create word embedding for use in natural language processing.
 #### 4. [Sentiment Prediction](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/sentiment-prediction-lstm)
 This mini-project uses a dataset of movie reviews, accompanied by sentiment labels: positive or negative, and implements a LSTM that performs sentiment analysis.
+#### 5. [Attention Model](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/recurrent-neural-networks/attention/)
+This notebook shows how attention model is implemented, in isolation from a larger model.
+#### 6. [PROJECT: Generate TV Scripts](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/tv-script)
+In this project, a RNN is built and trained on part of the [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv) of scripts from 9 seasons to generate a new, "fake" TV script, based on patterns it recognizes in the training data.
+The project is broken down to multiple steps:
+- Get and preprocess the text data
+- Build the RNN
+- Set hyperparameters and discuss how to choose them
+- Train the RNN
+- Generate new scripts based on a prime word
 
-### Generative Adversarial Networks
+### [Generative Adversarial Networks](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/gan)
+This part on GAN contains several mini-projects and a final project on image generation.
+
+#### 1. [MNIST-GAN](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/gan/mnist-gan)
+This mini-project aims to define and train a GAN. The notebook is about generating new images of handwritten digits that look as if they've come from the original MNIST training data. To generate new images, a Generator must learn about the features that make up images of digits and combine those features in new ways; imagining totally new images of digits.
+
+#### 2. [Batch Normalization](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/gan/batch-norm)
+This notebook shows how a simple MNIST classification model improves with the addition of batch normalization layers.
+
+#### 3. [Deep Convolutional GAN](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/gan/dcgan)
+This mini-project implements a deep convolutional GAN, first explored in 2016 in this [original paper](https://arxiv.org/pdf/1511.06434.pdf), capable of generating more complex images that look like house addresses from the [Google Streetview dataset, SVHN](http://ufldl.stanford.edu/housenumbers/).
+
+#### 4. [CycleGAN, Image-to-Image Translation](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/gan/cycle-gan/)
+In this mini-project, a CycleGAN is defined and trained to read in an image from a set of images of Yosemite national park taken either during the summer or winter and transform it so that it looks as if it belongs in the other season set.
+
+#### 5. [PROJECT: Generating Faces](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/gan/face-generation/)
+In this project, a DCGAN is defined and trained on [CelebFaces Attributes Dataset (CelebA) dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The final goal is to get a generator network to generate new images of faces that look as realistic as possible. At the end of the project, we'll be able to visualize the results of trained Generator to see how it performs; the generated samples should look like fairly realistic faces with small amounts of noise.
+The project is broken down into a series of tasks:
+- Get and preprocess the image data
+- Create a DataLoader in PyTorch
+- Define the model with a discriminator and a generator
+- Initialize the network weights
+- Define discriminator and generator loss functions
+- Choose an optimizer
+- Training
+- Visualize generated images and highlight possible improvements.
+
 ### Deployment with AWS Sagemaker
 
