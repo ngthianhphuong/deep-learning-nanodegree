@@ -1,4 +1,4 @@
-# Machine Learning Deployment using AWS SageMaker
+# Part V: Machine Learning Deployment using AWS SageMaker
 
 Code and associated files 
 
