@@ -1,4 +1,4 @@
-# Recurrent Neural Networks
+# Part III: Recurrent Neural Networks
 This part contains 5 mini-projects and 1 final project. It aims to apply PyTorch to implement RNN and LSTM in various tasks relating to Natural Language Processing.
 ## 1. [Time Series](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/time-series)
 This is a walkthrough of code to give an idea of how PyTorch represents RNNs and how to represent memory in code.
