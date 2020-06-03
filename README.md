@@ -38,4 +38,4 @@ The Udacity's Deep Learning Nanodegree is composed of 5 parts:
 
 * Learn how to monitor your model over time, how to A/B test it, and how to know when it’s time to update it
 
-A README in each part gives further details about the programming exercises, mini-projects and final projects.
+**A README in each part gives further details about the programming exercises, mini-projects and final projects.**
