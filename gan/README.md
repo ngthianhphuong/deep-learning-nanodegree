@@ -13,7 +13,7 @@ This mini-project implements a deep convolutional GAN, first explored in 2016 in
 ## 4. [CycleGAN, Image-to-Image Translation](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/gan/cycle-gan/)
 In this mini-project, a CycleGAN is defined and trained to read in an image from a set of images of Yosemite national park taken either during the summer or winter and transform it so that it looks as if it belongs in the other season set.
 
-## 5. [PROJECT: Generating Faces](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/gan/face-generation/)
+## 5. [PROJECT: GENERATE HUMAN FACES WITH GAN MODELS](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/gan/face-generation/)
 In this project, a DCGAN is defined and trained on [CelebFaces Attributes Dataset (CelebA) dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The final goal is to get a generator network to generate new images of faces that look as realistic as possible. At the end of the project, we'll be able to visualize the results of trained Generator to see how it performs; the generated samples should look like fairly realistic faces with small amounts of noise.
 The project is broken down into a series of tasks:
 - Get and preprocess the image data
