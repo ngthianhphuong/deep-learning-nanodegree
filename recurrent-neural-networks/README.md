@@ -10,7 +10,7 @@ This mini-project is about implementing the Word2Vec model using the SkipGram ar
 This mini-project uses a dataset of movie reviews, accompanied by sentiment labels: positive or negative, and implements a LSTM that performs sentiment analysis.
 ## 5. [Attention Model](https://github.com/ngthianhphuong/deep-learning-nanodegree/blob/master/recurrent-neural-networks/attention/)
 This notebook shows how attention model is implemented, in isolation from a larger model.
-## 6. [PROJECT: Generate TV Scripts](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/tv-script)
+## 6. [PROJECT: GENERATE TV SCRIPTS FOR ‘SEINFELD’](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/recurrent-neural-networks/tv-script)
 In this project, a RNN is built and trained on part of the [Seinfeld dataset](https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv) of scripts from 9 seasons to generate a new, "fake" TV script, based on patterns it recognizes in the training data.
 The project is broken down to multiple steps:
 - Get and preprocess the text data
