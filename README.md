@@ -12,7 +12,7 @@ The Udacity's Deep Learning Nanodegree is composed of 5 parts:
 * Learn how to train sentiment analysis networks from Andrew Trask, author of Grokking Deep Learning
 
 #### [Convolutional Neural Networks](https://github.com/ngthianhphuong/deep-learning-nanodegree/tree/master/convolutional-neural-networks)
-* Spin up an instance of Amazon's GPUs so you can train your neural networks faster
+* Spin up an instance of Amazon's GPUs to train neural networks faster
 
 * Use Convolutional Neural Networks to identify patterns and dramatically improve performance in image-classification tasks
 
